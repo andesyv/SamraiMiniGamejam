@@ -17,8 +17,8 @@ public:
 	/** Primary draw call for the HUD */
 	virtual void DrawHUD() override;
 
-private:
-	/** Crosshair asset pointer */
+protected:
+	UPROPERTY(EditDefaultsOnly)
 	class UTexture2D* CrosshairTex;
 
 };

@@ -33,6 +33,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UPROPERTY(VisibleAnywhere)
 	USkeletalMeshComponent* Mesh1P;
 
 protected:
